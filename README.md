@@ -27,6 +27,18 @@ Install the required libraries using pip:
 ```bash
 pip install streamlit mysql-connector-python
 ```
+### Set up a virtual environment
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+```
 ## MySQL Database Setup
 Make sure you have a MySQL server running and a database named storedata with a table named sales. You can create these by running the following SQL commands:
 CREATE DATABASE storedata;
