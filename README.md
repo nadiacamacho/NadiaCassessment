@@ -26,11 +26,11 @@ Install the required libraries using pip:
 
 ```bash
 pip install streamlit mysql-connector-python
-
+```
 ## MySQL Database Setup
 Make sure you have a MySQL server running and a database named storedata with a table named sales. You can create these by running the following SQL commands:
 CREATE DATABASE storedata;
-
+```
 USE storedata;
 
 CREATE TABLE sales (
@@ -39,7 +39,7 @@ CREATE TABLE sales (
     total_sale DECIMAL(10, 2),
     transaction_date DATE
 );
-
+```
 ## Loading Data into MySQL
 You will need to load data into the sales table from an Excel file named MOCK_DATA.xlsx. First, convert the Excel file to CSV format.
 
@@ -57,12 +57,14 @@ Follow the wizard instructions to map the fields and import the data.
 ## MySQL Database Setup
 Ensure that the MySQL server credentials specified in the code match your MySQL server configuration
 In the code, replace the following values with your own:
+```
 host="localhost",
 user="root",
 password="yourpassword",
 database="storedata"
-
+```
 ## Running the Application
 To start the application, use the following command in your terminal:
+```
 streamlit run app.py
-
+```
