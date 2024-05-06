@@ -44,14 +44,14 @@ CREATE TABLE sales (
 You will need to load data into the sales table from an Excel file named MOCK_DATA.xlsx. First, convert the Excel file to CSV format.
 
 Convert to CSV
-Open MOCK_DATA.xlsx in Excel.
-Go to File > Save As.
-Choose the CSV (Comma delimited) format and save the file as MOCK_DATA.csv.
-Load CSV Data into MySQL using MySQL Workbench
-Open MySQL Workbench and connect to your MySQL server.
-Right-click the sales table and select Table Data Import Wizard.
-Click Next and then browse to the MOCK_DATA.csv file.
-Follow the wizard instructions to map the fields and import the data.
+- Open MOCK_DATA.xlsx in Excel.
+- Go to File > Save As.
+- Choose the CSV (Comma delimited) format and save the file as MOCK_DATA.csv.
+- Load CSV Data into MySQL using MySQL Workbench
+- Open MySQL Workbench and connect to your MySQL server.
+- Right-click the sales table and select Table Data Import Wizard.
+- Click Next and then browse to the MOCK_DATA.csv file.
+- Follow the wizard instructions when importing the data.
 
 
 ## MySQL Database Setup
