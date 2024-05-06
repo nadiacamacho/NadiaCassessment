@@ -20,7 +20,7 @@ Ensure you have the following dependencies and requirements installed on your sy
 ### 1. Software Requirements
 - Python 3.x
 - MySQL Server
-
+- PyCharm IDE (Optional)
 ### 2. Python Libraries
 Install the required libraries using pip:
 
@@ -35,7 +35,7 @@ USE storedata;
 
 CREATE TABLE sales (
     id INT PRIMARY KEY,
-    store_code VARCHAR(20),
+    store_code VARCHAR(10),
     total_sale DECIMAL(10, 2),
     transaction_date DATE
 );
